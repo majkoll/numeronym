@@ -4,9 +4,6 @@ A TypeScript library and CLI tool for generating numeronyms from words with full
 
 > A numeronym is a number-based abbreviation where the number represents letters between the first and last character. For example: `internationalization` → `i18n` (18 letters between 'i' and 'n')
 
-[![npm version](https://img.shields.io/npm/v/numeronym.svg)](https://www.npmjs.com/package/numeronym)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-
 ## Features
 
 - ✅ **Unicode-safe** - Properly handles emoji, accents, and complex grapheme clusters
