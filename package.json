@@ -1,0 +1,58 @@
+{
+  "name": "numeronym",
+  "version": "1.0.0",
+  "description": "Generate numeronyms from words with Unicode support (i18n, l10n, a11y)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "numeronym": "./bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "example": "tsx examples/demo.ts",
+    "prepublishOnly": "npm run clean && npm run build && npm test"
+  },
+  "keywords": [
+    "numeronym",
+    "i18n",
+    "l10n",
+    "a11y",
+    "abbreviation",
+    "internationalization",
+    "localization",
+    "accessibility",
+    "unicode",
+    "emoji",
+    "typescript"
+  ],
+  "author": "majkoll",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
