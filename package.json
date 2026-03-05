@@ -45,6 +45,14 @@
   ],
   "author": "majkoll",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majkoll/numeronym.git"
+  },
+  "homepage": "https://github.com/majkoll/numeronym#readme",
+  "bugs": {
+    "url": "https://github.com/majkoll/numeronym/issues"
+  },
   "devDependencies": {
     "@types/node": "^25.3.3",
     "tsup": "^8.5.1",
