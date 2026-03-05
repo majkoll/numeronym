@@ -16,7 +16,7 @@ A TypeScript library and CLI tool for generating numeronyms from words with full
 ## Installation
 
 ```bash
-npm install numeronym
+npm install @majkoll/numeronym
 ```
 
 ## Quick Start
@@ -24,7 +24,7 @@ npm install numeronym
 ### As a Library
 
 ```typescript
-import { toNumeronym } from "numeronym";
+import { toNumeronym } from "@majkoll/numeronym";
 
 toNumeronym("internationalization"); // 'i18n'
 toNumeronym("localization"); // 'l10n'
@@ -43,13 +43,13 @@ toNumeronym("the big word", { minLength: 4 }); // 'the big w2d'
 ### As a CLI
 
 ```bash
-npx numeronym "hello world"
+npx @majkoll/numeronym "hello world"
 # h3o w3d
 
-npx numeronym "hello world" --transform uppercase --separator "-"
+npx @majkoll/numeronym "hello world" --transform uppercase --separator "-"
 # H3O-W3D
 
-npx numeronym --help
+npx @majkoll/numeronym --help
 ```
 
 ## API

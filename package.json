@@ -1,5 +1,5 @@
 {
-  "name": "numeronym",
+  "name": "@majkoll/numeronym",
   "version": "1.0.0",
   "description": "Generate numeronyms from words with Unicode support (i18n, l10n, a11y)",
   "type": "module",
