@@ -1,4 +1,4 @@
-# Numeronym
+# Numeronym (n7m)
 
 A TypeScript library and CLI tool for generating numeronyms from words with full Unicode support.
 
